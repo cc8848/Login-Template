@@ -18,14 +18,11 @@ h3 {
 .right-align {
   text-align: right; }
 
-.right-align.followers {
-  position: absolute;
-  bottom: 10px;
-  right: 12px;
-  height: 40px;
-  display: table-cell;
-  /* comportement visuel de cellule */
-  vertical-align: middle; }
+.followers {
+  display: flex;
+  flex-direction: row;
+  line-height: 25px;
+  float: right; }
 
 .ion-android-star, .ion-android-star-outline {
   color: #727e88;

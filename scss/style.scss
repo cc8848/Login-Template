@@ -24,8 +24,12 @@ h3{
 .right-align.followers {
   
 }
-.followers div{
-  
+.followers{
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+    float: right;
+
 }
 
 
