@@ -48,9 +48,19 @@ h3 {
   color: #a6b0b7;
   width: 22px; }
 
+a.ion-edit {
+  background-color: #3079ed;
+  color: white;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
 i.ion-camera {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.31); }
+
+.btn-outline-info:hover {
+  color: white; }
 
 .name, .phone, .address {
   font-size: 16px;
