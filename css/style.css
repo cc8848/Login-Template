@@ -22,7 +22,10 @@ h3 {
   display: flex;
   flex-direction: row;
   line-height: 25px;
-  float: right; }
+  float: right;
+  position: absolute;
+  right: 12px;
+  bottom: -174px; }
 
 .ion-android-star, .ion-android-star-outline {
   color: #727e88;
