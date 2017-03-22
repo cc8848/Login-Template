@@ -1,0 +1,101 @@
+@import url('http://fonts.googleapis.com/css?family=Open Sans:400,100');
+
+input:focus {
+ border-color: #0275d8 !important;
+}
+.nav-tabs .nav-link::before{
+ background-color: #0275d8 !important;
+}
+.navbar .btn{
+  border :1px solid;
+}
+h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.center{
+	margin: 0 auto;
+
+}
+.right-align{
+	text-align: right;
+}
+.right-align.followers {
+  
+}
+.followers{
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+    float: right;
+        position: absolute;
+    right: 12px;
+    bottom: -174px;
+
+}
+
+
+.ion-android-star , .ion-android-star-outline{
+  color : #727e88;
+  font-size: 24px;
+}
+.ion-ios-home-outline , .ion-edit , .ion-edit , .ion-ios-telephone-outline, .ion-ios-globe{
+  font-size: 18px;
+  color: #727e88;
+}
+.ion-ios-globe{
+  font-size: 18px;
+  color: #727e88;
+}
+
+.ion-ios-location-outline{
+  font-size: 17.83px;
+  color : #3f454a;
+}
+.ion-ios-plus{
+  font-size: 28px;
+  color : #a6b0b7;
+  width: 22px;
+}
+a.ion-edit {
+    background-color: #3079ed;
+    color: white;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+i.ion-camera {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.31);
+}
+.btn-outline-info:hover{
+  color: white;
+}
+.name , .phone , .address{
+  font-size: 16px;
+  color : #3f454a;
+}
+
+
+
+
+
+
+@media  (max-width: 550px) {
+ 
+ .ion-android-star , .ion-android-star-outline{
+   color: #4d90fe;
+ }
+
+ h3{
+  text-align: center;
+ }
+
+}
+
+
+
+
+
+
